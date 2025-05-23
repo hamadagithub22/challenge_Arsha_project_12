@@ -30,7 +30,7 @@ header{
 /******************************<< main >>************************************/
 main{
     height: auto;
-    padding: 80px;
+    padding: 80px 10px;
     background-color: #37517e;
     display: flex;
     align-items: center;
@@ -54,12 +54,13 @@ main a{
 #section1{
     background-color: #f3f5fa;
     padding-top: 10px;
+  
 
 }
 
 
 #section1 .container img{
-    padding: 30px;
+    padding: 30px 10px;
     filter: grayscale(100%);
     transition: 0.3s ease;
 }
@@ -72,7 +73,7 @@ main a{
 /******************************<< section_2 >>************************************/
 #section2{
     height: auto;
-    padding: 60px;
+    padding: 60px 0px;
     align-items: center;
     display: flex;
 }
@@ -89,10 +90,11 @@ main a{
 
 
 
+
 /******************************<< section_4 >>************************************/
 #section4{
     height: auto;
-    padding: 60px;
+    padding: 60px 0px;
     display: flex;
     align-items: center;
 }
@@ -139,7 +141,7 @@ transition: width 0.3s linear;
  /******************************<< section_5 >>************************************/
  #section5{
 height: auto;
-padding: 60px;
+padding: 60px 10px;
 background-color: #f3f5fa;
 padding-top: 30px;
  }
@@ -161,7 +163,7 @@ padding-top: 30px;
 #section5 .container .row{
   
     background-color: white;
-    padding: 50px;
+    padding: 50px 10px;
 
 }
 #section5 .container button:hover{
@@ -192,9 +194,8 @@ padding-top: 30px;
  /******************************<< section_7 >>************************************/
  #section7{
     height: auto;
-    padding: 50px;
+    padding: 50px 20px;
     text-align: center;
-    padding: 50px;
  }
 
 
@@ -244,7 +245,7 @@ padding-top: 30px;
  /******************************<< section_8 >>************************************/
  #section8 {
     height: auto;
-    padding: 80px;
+    padding: 80px 0px;
     background-color: #f3f5fa;
  }
  #section8 .member{
@@ -259,7 +260,7 @@ padding-top: 30px;
 
   #section9{
     height: auto;
-    padding: 70px;
+    padding: 70px 0px;
   }
 
   #section9 .pricing{
@@ -348,7 +349,7 @@ color: #343a40; /* لون النص */
 
 #section10{
     height: auto;
-    padding: 60px;
+    padding: 60px 0px;
     background-color: #f3f5fa;
     display: flex;
     align-items: center;
@@ -359,7 +360,7 @@ color: #343a40; /* لون النص */
 /*8********************************* section 11**********************/
 #section11{
     height: auto;
-    padding: 70px;  
+    padding: 100px 0px;  
     align-items: center;
 }
 
@@ -375,13 +376,13 @@ color: #343a40; /* لون النص */
 }
 
 textarea{
-    height: 30vh;
+    height: 25vh;
 }
 /*8********************************* section 12 *****************************/
 #section12{
     height: auto;
     display: flex;
-   padding: 60px;
+   padding: 60px 0px;
    margin: auto;
    background-color: #f3f5fa;
 
@@ -456,4 +457,59 @@ footer p a{
 footer p a:hover{
     color: #0056b3;
     text-decoration: none;
+}
+
+
+@media(max-width:500px){
+     /******************************<< section_8 >>************************************/
+ #section8 {
+    height: auto;
+    /* padding: 80px; */
+ }
+ #section8 .member{
+    display: block;
+    text-align: center;
+ }
+
+  .team .member {
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    background: white; 
+    transition: 0.5s;
+    justify-content: space-between;
+   
+ }
+ .team .member h2{
+    padding-top: 30px;
+ }
+ #section1 .container img{
+    padding: 30px;
+    filter: grayscale(100%);
+    transition: 0.3s ease;
+    height:120px;
+}
+#section3 h2{
+    font-size: 30px;
+}
+#section10 .accordionBtn{
+    font-size: 15px;
+}
+#section10 p{
+    font-size: 14px;
+}
+#section10 {
+    padding: 50px 0px;
+}
+
+#section11 p{
+    text-align: left;
+}
+h2{ 
+    font-size: 25px;
+}
+footer{
+    padding: 40px 10px;
+}
+
 }
